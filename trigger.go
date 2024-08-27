@@ -1,8 +1,3 @@
-/*
-Arquivo Go
-Licença Apache 2.0
-Copyright 2024 Mateus Felipe da Silveira Vieira
-*/
 package main
 
 import (
