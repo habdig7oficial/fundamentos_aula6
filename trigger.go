@@ -1,3 +1,9 @@
+/*
+Licença: Apache 2.0
+Copyright 2024 Mateus Felipe da Silveira Vieira
+Tipo de arquivo go
+*/
+
 package main
 
 import (
@@ -27,7 +33,7 @@ func main() {
 		if funcionarios[i].salario <= 500 {
 			novo_salario[i].salario = funcionarios[i].salario + (funcionarios[i].salario / 100) * 20
 		} else {
-           novo_salario[i].salario = funcionarios[i].salario + (funcionarios[i].salario / 100) * 10
+            novo_salario[i].salario = funcionarios[i].salario + (funcionarios[i].salario / 100) * 10
 		}
 	}
 
